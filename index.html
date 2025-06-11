@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE-edge" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <title>funom web</title>
+  </head>
+  <body>
+    <!-- Notification Bell -->
+  <div class="notification-container">
+    <button class="notification-button" onclick="alert('You have 3 new notifications!')">
+      <i class="fas fa-bell"></i>
+      <span class="badge">3</span>
+    </button>
+  </div>
+    <h1>Home page</h1>
+    <h2><a href="index.html">home</a>  |  <a href="about.html">about </a> |  <a href="contact.html">contact</a>  |  <a href="gallery.html">gallery</a></h2> <hr>
+    
+    <marquee behavior="" direction="">
+<p>NOTE: this web is just for practical purppose don't get it twisted</p>
+    </marquee>
+
+	Customer Name:  <input type="text" Placeholder="Enter the Customer Name"/>   
+   <br>   
+	 <br>   
+	<select name="Cars" size="5">   
+	 <option value="Merceders"> Merceders </option>   
+	 <option value="BMW"> BMW </option>   
+	 <option value="Jaguar"> Jaguar </option>   
+	 <option value="Lamborghini"> Lamborghini </option>   
+	 <option value="Ferrari"> Ferrari </option>   
+	 <option value="Ford"> Ford </option>   
+	</select>   
+
+     <h3>what you need to know about me</h3>
+     <ol>
+      <li>I Like food</li>
+      <li>I dey fear woman</li>
+      <li>I'm not in love</li>
+      <li>this is my first skill training</li>
+      <li>beans and bread is my favorite</li>
+     </ol>
+    <!-- Login Form -->
+     <div class="container">
+      <h3>log in or register here</h3>
+      <form action="login" method="post"> 
+      <label for="username"> username</label> <br>
+      <input type="text" id="username" name="username" required> <br><br>
+      <label for="password">password</label> <br>
+      <input type="text" id="password" name="password" required> <br><br>
+      <button type="submit">login</button>
+      <p>Don't have an account? <a href="#">Sign up</a></p>
+      </form>
+      <h3>comment</h3>
+    <form action="/comment" method="post">
+      <label for="comment">comment</label>
+      <input type="text"id="comment" name="comment" required><br><br>
+      <label for="email">email</label>
+      <input type="text"id="email" name="email"required><br><br>
+      <button type="sumit">sumit</button>
+
+
+    </form>
+     </div>
+
+
+
+  </body>
+</html>
